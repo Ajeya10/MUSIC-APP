@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Teko&display=swap');
+body {
+    background-image: url("abstract-marble-white-gold-background-wedding-invitation-backdrop_779330-994.avif");
+    
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+.nav{
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Teko', sans-serif;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    background-color: black;
+    height: 50px;
+    width: 100vw;
+}
+nav ul li {
+    color: white;
+    padding-left: 1vw;
+}
+nav ul li a{
+    color: white;
+   text-decoration: none;
+}
+.logo img{
+
+    height:40px;
+   
+    border-radius: 100vh;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    padding-right: 5vw;
+}
+.container{
+    width: 70vw;
+    height: 70vh;
+    margin-top: 4vh;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+   background-image: url(main-qimg-b2cb310e96afc93ba29f0f9922ee10ab.webp);  
+   background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    overflow: scroll;
+    overflow: hidden;
+    background-position: center center;
+}
+.listheading{
+    /* color:white; */
+    text-transform: uppercase;
+}
+.button{
+    margin-top: 2vw;
+    position: sticky;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#progressbar{
+    width: 75vw;
+    cursor: pointer;
+}
+.icon{
+    cursor: pointer;
+}
+.lists{
+    padding: 10px;
+}
+.musiccon{
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+   padding-left: 1vw;  
+}
+.a1{
+    font-size: 20px;
+    padding-right: 1vw;
+}
+.songname{
+    font-size: 20px;
+    padding: 1vw;
+}
+.musiccon i{
+    cursor: pointer;
+}
